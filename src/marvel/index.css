@@ -10,6 +10,27 @@
     font-size: 3.5em;
 }
 
+.button {
+    user-select: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #E02401;
+}
+
+.dropDownMenu {
+    display: flex;
+    align-items: center;
+}
+
+.dropDownMenu > .choice {
+    text-align: center;
+    user-select: none;
+    
+    width: 6em;
+}
+
 #MoviesRating ul {
     display: flex;
     list-style: none;
@@ -26,14 +47,14 @@
     align-items: center;
 
     font-size: 1em;
-    margin: 0.3em 0;
+    margin: 0.45em 0;
     height: 1.5em;
 }
 
 #MoviesRating li span {
     font-weight: 500;
     width: 15em;
-    line-height: 1em;
+    line-height: 1.1em;
 }
 
 #MoviesRating .rating-bar {
